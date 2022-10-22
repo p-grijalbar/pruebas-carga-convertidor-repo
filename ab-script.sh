@@ -1,0 +1,2 @@
+#! /usr/bash
+ab -v 4 -n 1 -c 1 -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY2NjQ2Mjc1NywianRpIjoiNGE3NWZjMjAtZmZjNC00MjRhLTllNGYtMTFhYTg5NjVkZTViIiwibmJmIjoxNjY2NDYyNzU3LCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoxLCJleHAiOjE2NjY0NjM2NTcsImNvcnJlbyI6InByYW1pcmV6OTY2QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoicGxpbmlvIiwiaWQiOjF9.lkDII2O3NNqmV60r_agER1OZKURqd6vAp1fgUCkb45c' -p post_data.txt -T "multipart/form-data; boundary=1234567890" http://192.168.0.23:2000/api/tasks
